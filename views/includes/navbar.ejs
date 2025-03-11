@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md bg-primary bg-gradient sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i> NESTIFY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-nav" id="navbarNavAltMarkup">
+        <div class="navbar-nav offset-2">
+          <b><a class="nav-link"  href="/listings">Home</a></b>
+          <b><a class="nav-link"  href="/listings/new">Add New Listing</a></b>
+        </div>
+        <div class="navbar-nav ms-auto">
+          <% if (!currUser) { %> 
+            <b><a class="nav-link" href="/signup">Sign up</a></b>
+            <b><a class="nav-link" href="/login">Log in</a></b>
+          <% } %>
+          <% if (currUser) { %> 
+            <b><a class="nav-link" href="/logout">Log out</a></b>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </nav>
