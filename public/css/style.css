@@ -1,0 +1,131 @@
+body {
+    font-family: "Plus Jakarta Sans", serif !important;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: whitesmoke;
+}
+.navbar-brand {
+    padding-left: 20px;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+.navbar-brand i {
+    color: #669bbc;
+    padding-right: 5px;
+    font-size: 1.5rem;
+}
+.collapse {
+    font-size: large;
+    justify-content: center;
+    padding-right: 6rem;
+}
+.nav-item {
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    
+} 
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body {
+    padding: 0 !important;
+}
+.card-text p {
+    font-weight: 400 !important;
+}
+.listing_link {
+    text-decoration: none;
+}
+
+
+/* Card Effect */
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+.new-listing {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.pad-bottom {
+    padding-bottom: 50px;
+}
+.edit-buttom {
+    padding-bottom: 50px;
+}
+.edit-listing {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.show-img {
+    height: 30vh;
+}
+/* Show Button */
+.btns {
+    display: flex;
+    padding-bottom: 40px;
+}
+.btns a {
+    background-color: #669bbc;
+}
+.btns a:hover {
+    background-color: #669bbc;
+}
+form .add-btn {
+    background-color: #669bbc;
+}
+form .add-btn:hover {
+    background-color: #669bbc;
+}
+form .edit-btn { 
+    background-color: #669bbc;
+}
+form .edit-btn:hover { 
+    background-color: #669bbc;
+}
+
+
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer {
+    background-color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Search Box */
+.btn-search {
+    background-color: #669bbc;
+    border-radius: 30px;
+    padding: 0 1rem 0 1rem;
+  }
+  .btn-search:hover {
+    background-color: #669bbc;
+  }
+  .btn-search i {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+  .search {
+    border-radius: 30px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+}
+
